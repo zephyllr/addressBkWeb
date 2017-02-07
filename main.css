@@ -65,7 +65,7 @@ fieldset{
 @media screen and (min-width: 654px) and (max-width: 960px){
     body{
 	background-image: url("https://sso.stern.nyu.edu/web/images/stern1.jpg");
-        background-size: auto;
+        background-size: cover;
         background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
