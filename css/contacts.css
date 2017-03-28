@@ -1,0 +1,168 @@
+body{
+    font-family: "Proxima Nova", Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 22px;
+    margin-top: 150px;
+  }
+h1{
+    font-size: 40px;
+}
+div{
+    margin: 8px auto;
+}
+nav{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+#logo{
+    width: 400px;
+}
+.add-fieldset, input{
+    margin: 3px;
+    border: 2px solid #008CBA;
+    max-width: 300px;
+    width: 60%;
+    height: 32px;
+    font-size: 16px;
+}
+.add-fieldset, label{
+    text-align: left;
+    
+}
+/**=====================================================================
+   Add, Logout **/
+
+.link-button{
+    cursor: pointer;
+    padding: 7px 78px;
+    font-size: 15px;    
+    -webkit-appearance: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.link-button.add{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin: 2px;
+}
+.link-button.add:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.link-button.logout{
+    background-color: white;
+    color: black;
+    border: 2px solid #58068C;
+    margin: 15px 0px 15px 0px;
+}
+.link-button.logout:hover {
+    background-color: #58068C;
+    color: white;
+}
+/**=====================================================================
+   Search **/
+#search-bar{
+    background-image: url(../img/search-icon32.png);
+    background-size: 24px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    max-width: 300px;
+    width: 80%;
+    height: 39.9px;
+    font-size: 16px;
+    display: inline-block;
+}
+/**=====================================================================
+   Edit, Delete, Logout **/
+
+.js-button{    
+    margin: 12px 4px 0px 4px;
+    cursor: pointer;
+    padding: 10px;
+    max-width: 300px;
+    height: 40px;
+    font-size: 15px;
+    -webkit-appearance: none;
+}
+.js-button.edit{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+.js-button.edit:hover{
+    background-color: #555555;
+    color: white;
+}
+.js-button.delete{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+.js-button.delete:hover{
+    background-color: #f44336;
+    color: white;
+}
+
+/**=====================================================================
+   Accordion CSS **/
+#contact-menu-accordion{
+    font-family: serif;
+}
+button.accordion-control{
+    background-color: #E6E6FA;
+    cursor: pointer;
+    padding: 12px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button.accordion-control.active, button.accordian-control:hover{
+    background-color: #ddd;
+}
+
+button.accordion-control::after{
+    content: '\002B'; /* plus sign (+) */
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion-control.active::after{
+    content: "\2212"; /* minus sign (-) */
+}
+
+div.accordion-panel{
+    padding: 18px;
+    width: 75%;
+    text-align: left;
+    display: none;
+}
+
+/**====================================================================
+   Media Queries **/
+@media screen and (min-width: 961px) {
+}
+@media screen and (min-width: 654px) and (max-width: 960px){
+}
+@media screen and (max-width: 653px){
+    #logo{
+	max-width: 100%;
+    }
+}

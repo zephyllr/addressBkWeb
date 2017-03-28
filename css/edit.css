@@ -1,0 +1,100 @@
+body{
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 22px;
+  }
+h1{
+    margin-top: 120px;
+}
+nav{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#logo{
+    width: 400px;
+}
+input{
+    height: 28px;
+    font-size: 16px;
+    width: 100%;
+    margin: 2px 0px 10px 0px;
+}
+#add-fieldset div{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline block;
+}
+fieldset{
+    margin: 0 auto;
+    padding: 20px 60px;
+    background-color: white;
+    max-width: 280px;
+    min-height: 350px;
+    border: none;
+    position: relative;
+}
+label{
+    float:left;
+}
+footer{
+    padding-bottom: 25px;
+}
+/**=====================================================================
+   Link Button Class, Logout **/
+
+.link-button{
+    cursor: pointer;
+    padding: 7px 78px;
+    font-size: 15px;    
+    -webkit-appearance: none;
+    text-decoration: none;
+    display: inline-block;
+}
+.link-button.logout{
+    background-color: white;
+    color: black;
+    border: 2px solid #58068C;
+    margin: 15px 0px 15px 0px;
+}
+.link-button.logout:hover {
+    background-color: #58068C;
+    color: white;
+}
+/**=====================================================================
+   Cancel-Reset, Add-Submit **/
+
+.link-button.cancel-reset{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    height: 40px;
+}
+.link-button.cancel-reset:hover {
+    background-color: #f44336;
+    color: white;
+}
+.link-button.add-submit{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    height: 40px;
+}
+.link-button.add-submit:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+/**====================================================================
+   Media Queries **/
+@media screen and (min-width: 961px) {
+}
+@media screen and (min-width: 654px) and (max-width: 960px){
+}
+@media screen and (max-width: 653px){
+    #logo{
+    max-width: 100%;
+    }
+}

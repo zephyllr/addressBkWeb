@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contacts.css">
+  </head>
+
+  <body>
+
+  <!-- Header -->
+    <div class="header">
+      <nav>
+	     <a href="http://www.stern.nyu.edu/"><img id="logo" src="img/stern_logo.png" alt="NYU Stern"></a> 
+      </nav>
+    </div>
+
+ <!-- Sub-Header -->
+    <div class="subheader">
+      <h1>Address Book</h1>
+    </div>
+
+<!-- Add and Search Button -->
+    <div id="add-section">
+      <a class="link-button add" href="add_edit.html">Create New Contact</a>
+      <input id="search-bar" type="search" name="search" placeholder="Search Contact...">
+    </div>
+
+<!-- Contact Menu -->
+    <div id="contact-menu-accordion">
+      <h2>Contacts</h2>
+      <ul class="accordion">
+        <li>
+          <button class="accordion-control">Dolly Devashryee</button>
+          <div class="accordion-panel">
+            <ul>
+              <li><b>Name: </b>Dolly Devashryee</li>
+              <li><b>DOB: </b>1/15/98</li>
+              <li><b>Phone: </b>646-620-0469</li>
+              <li><b>Email: </b>dd2390@nyu.edu</li>
+              <li><b>Address: </b>6115 98th St. Apt. 3C, Forest Hills, New York 11374</li>
+              <li><b>Connection: </b>Friend</li>
+            </ul>
+            <button class="js-button edit">Edit Contact</button>
+            <button class="js-button delete">Delete Contact</button>
+          </div>
+        </li>
+        <!-- More Contacts to Follow in JS -->
+      </ul>
+    </div>
+
+<!-- Logout -->
+    <hr>
+    <footer>
+      <a id="logout" class="link-button logout" href="index.html">Logout</a>
+    </footer>
+
+<!-- JS File -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/contacts.js"></script>
+  </body>
+</html>
