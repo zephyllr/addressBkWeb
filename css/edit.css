@@ -30,12 +30,10 @@ input{
 }
 fieldset{
     margin: 0 auto;
-    padding: 20px 60px;
     background-color: white;
     max-width: 280px;
     min-height: 350px;
     border: none;
-    position: relative;
 }
 label{
     float:left;

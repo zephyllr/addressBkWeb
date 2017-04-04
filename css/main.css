@@ -81,4 +81,7 @@ fieldset{
     .content{
         margin-top: 35%;
     }
+    #logo{
+        max-width: 100%;
+    }
 }
