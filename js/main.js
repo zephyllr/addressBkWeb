@@ -1,5 +1,5 @@
 //Dummy Credentials
-var dUsername = "alice";
+var dUsername = "guest";
 var dPassword = "123";
 
 function validate_login(){
