@@ -14,8 +14,4 @@ function validate_login(){
     }
 }
 
-<<<<<<< HEAD
 var elInvalid = document.getElementById("invalid");
-=======
-var elInvalid = document.getElementById("invalid");
->>>>>>> 4effca0c9f48a1b81a3b35451d3ad4d01e5e4910

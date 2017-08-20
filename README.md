@@ -1,10 +1,12 @@
 # addressBkWeb
 
-Stern IT Workstudy Project
+Stern IT Intern Project
 
-Web framework for backend application, no functionality added yet, just dummy buttons
+Web framework for backend application.
 
-Three main media queries used
+No functionality added, just dummy buttons. 
+Dummy database created with js and cookies.
 
-Dummy database created with js and cookies
+Three main media queries used for responsiveness.
+
 
