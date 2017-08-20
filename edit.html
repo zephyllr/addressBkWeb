@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Book</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/add_edit.css">
+
+  </head>
+
+  <body>
+
+  <!-- Header -->
+    <div class="header">
+      <nav>
+	 <a href="http://www.stern.nyu.edu/"><img id="logo" src="img/stern_logo.png" alt="NYU Stern"></a> 
+      </nav>
+    </div>
+
+ <!-- Sub-Header -->
+    <div class="subheader">
+      <h1>Address Book</h1>
+    </div>
+
+<!-- Add Fieldset -->
+
+    <div id="add-fieldset">
+      <fieldset>
+      <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required="required" placeholder="First Last" /><br>
+
+          <label for="dob">DOB:</label>
+          <input type="text" id="dob" required="required" placeholder="MM/DD/YY"><br>
+
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" required="required" placeholder="XXX-XXX-XXXX"><br>
+
+          <label for="email">Email:</label>
+          <input type="text" id="email" required="required" placeholder="abc123@server.com"><br>
+
+          <label for="address">Address:</label>
+          <input type="text" id="address" required="required" placeholder="House#, Apt#"><br>
+          <label for="address2">Address2:</label>
+          <input type="text" id="address2" required="required" placeholder="City, State, Zip"><br>
+
+          <label for="connection">Connection:</label>
+          <input type="text" id="connection" required="required" placeholder="Relation">
+        </div>
+        <div>
+          <input class="link-button add-submit" type="submit" onclick="add_contact()" value="Edit Contact">
+          <input class="link-button cancel-reset" type="reset" value="Cancel" onclick="location.href='contacts.html'">
+        </div>
+      </fieldset>
+    </div>
+
+<!-- Logout -->
+    <hr>
+    <footer>
+      <a id="logout" class="link-button logout" href="index.html">Logout</a>
+    </footer>
+
+<!-- JS File -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/edit.js"></script>
+
+  </body>
+</html>

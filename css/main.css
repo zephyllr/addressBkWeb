@@ -19,7 +19,7 @@ input{
     font-size: 16px;
     width: 100%;
 }
-#submit_button{
+#submit-button{
     background-color: #58068C;    
     color: white;
     display: inline block;
@@ -38,7 +38,7 @@ fieldset{
     padding: 20px 60px;
     background-color: white;
     max-width: 280px;
-    max-height: 350px;
+    min-height: 350px;
     border: none;
 }
 
@@ -52,11 +52,11 @@ fieldset{
 
 @media screen and (min-width: 961px) {
     body{
-	background-image: url("https://sso.stern.nyu.edu/web/images/stern1.jpg");
-	background-size: auto;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+    	background-image: url("https://sso.stern.nyu.edu/web/images/stern1.jpg");
+    	background-size: auto;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-attachment: fixed;
     }
     .content{
         margin-top: 220px;
@@ -64,11 +64,11 @@ fieldset{
 }
 @media screen and (min-width: 654px) and (max-width: 960px){
     body{
-	background-image: url("https://sso.stern.nyu.edu/web/images/stern1.jpg");
+    	background-image: url("https://sso.stern.nyu.edu/web/images/stern1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+    	background-position: center;
+    	background-attachment: fixed;
     }
     .content{
         margin-top: 220px;
@@ -80,5 +80,8 @@ fieldset{
     }
     .content{
         margin-top: 35%;
+    }
+    #logo{
+        max-width: 100%;
     }
 }
