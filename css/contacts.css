@@ -84,7 +84,10 @@ ul{
     height: 39.9px;
     font-size: 16px;
     display: inline-block;
+<<<<<<< HEAD
     -webkit-appearance: none;
+=======
+>>>>>>> 4effca0c9f48a1b81a3b35451d3ad4d01e5e4910
 }
 /**=====================================================================
    Edit, Delete, Logout **/
@@ -123,7 +126,11 @@ ul{
     font-family: serif;
 }
 button.accordion-control{
+<<<<<<< HEAD
     background-color: #dbdbff;
+=======
+    background-color: #E6E6FA;
+>>>>>>> 4effca0c9f48a1b81a3b35451d3ad4d01e5e4910
     cursor: pointer;
     padding: 12px;
     width: 80%;
@@ -131,6 +138,7 @@ button.accordion-control{
     border: none;
     outline: none;
     font-size: 15px;
+<<<<<<< HEAD
     margin: 2px;
 }
 
@@ -139,6 +147,15 @@ button.accordion-control.active, button.accordion-control:hover{
 }
 
 button.accordion-control:after{
+=======
+}
+
+button.accordion-control.active, button.accordian-control:hover{
+    background-color: #ddd;
+}
+
+button.accordion-control::after{
+>>>>>>> 4effca0c9f48a1b81a3b35451d3ad4d01e5e4910
     content: '\002B'; /* plus sign (+) */
     color: #777;
     font-weight: bold;
@@ -146,8 +163,13 @@ button.accordion-control:after{
     margin-left: 5px;
 }
 
+<<<<<<< HEAD
 button.accordion-control.active:after{
     content: '\2212'; /* minus sign (-) */
+=======
+button.accordion-control.active::after{
+    content: "\2212"; /* minus sign (-) */
+>>>>>>> 4effca0c9f48a1b81a3b35451d3ad4d01e5e4910
 }
 
 div.accordion-panel{
